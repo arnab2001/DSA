@@ -1,7 +1,9 @@
 # DSA
 Collection of DSA problems and solutions
 
- Quality Standards
+ Rules : Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
+
+ Quality Standards for Hacktoberfest 
  
      ❌Pull requests that are automated e.g. scripted opening pull requests to remove whitespace / fix typos / optimize images.
      
