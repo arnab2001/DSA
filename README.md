@@ -2,37 +2,46 @@
 
 
 
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> welcome to the HACKTOBERFEST 2021 </h1>
+# Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> HACKTOBERFEST 2021 IS HERE :bangbang::bangbang::bangbang:
 
+:performing_arts: **What is Hacktoberfest ?**
 
-## Excited? :star_struck: :star_struck: :star_struck:  
+:diamonds: Hacktoberfest is a month-long challenge. It happens every year in the month of October.
+  Hacktoberfest is open to everyone and it marks the celebration of **Open Source.** It's the biggest Open Source event that encourages newbies to participate in Open Source and     create their 1st meaningful PR.
+  
+  <h1 align="center"><img src='https://i.giphy.com/media/xT0xeQfucCAPaq3nQ4/giphy.gif'></h1>
 
-To add your contributions towards opensource community :smiley: :smiley::smiley: 
+🏆 🏆 **Rewards :** 🏆🏆
+
+You get some awesome goodies which include A limited-edition T-shirt  for **FREE!** and some stickers.
+
+🤔🤔**How can you Join** :grey_question::grey_question:
+
+Navigate to the link below 👇 👇 and follow the instructions ✔️ ✔️
+
+<https://hacktoberfest.digitalocean.com/register>
+
+## Excited :interrobang: :star_struck: :star_struck: :star_struck:  
+
+To add your contributions towards opensource community and grab the oppurtunity:smiley: :smiley::smiley: 
 
 Then lets start with this repository.
-##    :sunglasses: :sunglasses: <center> DSA </center>:sunglasses: :sunglasses:
+##  <center>:sunglasses: :sunglasses: DSA :sunglasses: :sunglasses: </center> (Collection of DSA problems and solutions :notebook_with_decorative_cover: :notebook_with_decorative_cover:)
 
-Head down :arrow_down: :arrow_down: :arrow_down: to see how to get started with the repo and follow the guidelines :dart: :dart: :dart:
-### Collection of DSA problems and solutions
+### Head down :arrow_down: :arrow_down: :arrow_down: to see how to get started with the repo and follow the guidelines :dart: :dart: :dart:
+
 *****
- Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
+:label: Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
  
- Example : Array/Sorting&Searching/bubblesort/bubblesort.c  (adding a readme file is recommended)
+ Example : `` Array/Sorting&Searching/bubblesort/bubblesort.c  (adding a readme file is recommended)
            Matrix/Matrix Multiplication/Matrix_multiplication.c
+ ``
  
  
- HACKTOBERFEST 2021 IS HERE !!!
-What is Hacktoberfest ?
-Hacktoberfest is a month-long challenge. It happens every year in the month of October.
-Hacktoberfest is open to everyone and it marks the celebration of Open Source. It's the biggest Open Source event that encourages newbies to participate in Open Source and create their 1st meaningful PR.
-Rewards:
-You get some awesome goodies which include A limited-edition T-shirt for **FREE!** and some stickers.
-How can you Join?
-Navigate to the link below and follow the instructions.
-https://hacktoberfest.digitalocean.com/register
 
 
-⚠️Rules:
+
+#### ⚠️Rules :grey_exclamation: :grey_exclamation: :smirk_cat: :smirk_cat: :smirk_cat::
 
 ✅ Pull requests can be submitted to any opted-in repository on GitHub or GitLab.
 
@@ -45,7 +54,7 @@ https://hacktoberfest.digitalocean.com/register
 ✅ To get a shirt, you must make four approved pull requests (PRs) on opted-in projects between October 1-31 in any time zone.
 This year, the first 55,000 participants can earn a T-shirt.
 
-⚠️What not to do!
+#### ⚠️What not to do :exclamation: :exclamation: :triumph: :triumph :
 
 ❌ PRs that are automated (e.g. scripted opening PRs to remove whitespace/optimize images)
 
@@ -57,42 +66,75 @@ This year, the first 55,000 participants can earn a T-shirt.
 
  
 
-## Steps to setup this Repository Locally
+## Steps to setup this Repository Locally :monocle_face: :monocle_face::monocle_face:
+******
 
-  1. Fork this repository to your account.
+
+ #### :one: Fork this repository to your account. :flushed: :flushed:
+  ******
 
 ![PicsArt_10-04-08 04 45](https://user-images.githubusercontent.com/64744084/95018364-e7d2df00-067c-11eb-9989-5ed586adb11b.jpg)
-
-  2. Go to Git Bash and Clone the forked repository using :
+******
+  #### :two: Go to Git Bash and Clone the forked repository ⌨️ ⌨️ : 
+  *****
        
-       a. Clone the repository
-```bash
-   git clone https://github.com/your_username/make-pull-request
+  
+
+```
+   $ git clone https://github.com/your_username/make-pull-request
 ```
 ![SS](https://lh3.googleusercontent.com/Cz7zRP6MdZvh_gWc8Bn9sRq44Pj-fWdLcAvvEw4HjP908CARfVeHYijCk8r8Bt88jqWDd109lmR07hzYTFfxyERx-HWzUyiiDvz556UqWKTIXDRyRXI4apSmT08ZjRO8PnLRQ1zyf4o-0MBde7dtvjRA_bExqYQtVumcnHAJzlivzwsl6YdjLUvVg8yMho2dDXcIZJ5XZ_b9h5lDcInEavuk7AEgU9h1AA1v3mAhOCRuCSZQXpLwp87PuBaeX491_1a6LJZmCV3AWchP-kJzsBjKTKNFzPIb3h6QWJkcclMVWqLCoRbXMKQbM6ichVnC5scKDT-y6lU3QRgGVn5TOZw1Jp6KyiRgAVHXomUz5VOvZcboCSG20RE3er8XyoIB-moV-lqre3lNeafeFQWabtGD7srhFC8RxEJq2UNX9B0315bR5B4pJ8mDfwmfWrQdcvG2g8uvEkpJAxU2lybbOCSt450odYDwkXgbgWR4dlMuUrjjD0-Xu5-2WHe6NrIVtbCUxAKbmIrKt_MxXbJ4XYKELjA_AWwqMD5Paaz9ArTWFzf4qx6c-yaQ1azMIv4YJkEY7J8fQEluUWvFHvHY8jsZQAger5cuxJtWnV3-uzpvBlkvDhMTySijpeZZntpgeEV__XTiJr4F76SCUpo0sWekT_t52yplamF7Gv_j-b5Hq-yhTsawJYm1c6QGHsAhXOS9K9LnJye3IAt5T8OOUtg=w1333-h626-no?authuser=0)
+******
+#### :three: Add a remote (upstream) to original project repository:
 
- 3. Open the folder in your favourite code editor and add your changes or modifications.
+``$ cd <cloned-folder>`` 
+``$ git remote add upstream https://github.com/arnab2001/DSA.git ``
+******
+
+#### 4️⃣ Now synchronize your forked repo:
  
-## Creating a PR 
+ It will help you to keep your forked repo updated with the original repo
  
- 1. After making changes or modification on to your code locally, you need to add these files to the staging area.
-```bash
-  git add <file-name>
+ ``$ git checkout main`` 
+ 
+ ``$ git fetch upstream`` 
+ 
+ ``$ git merge upstream/main`` 
+ 
+ ``$ git push origin main``
+ ******
+ #### 5️⃣Now create a new branch :thread::
+
+ `` $ git checkout -b <feature-branch>``
+******
+#### 6️⃣Open the folder in your favourite code editor and add your changes or modifications.
+ ******
+## Creating a PR :scream: :scream: :scream: :scream: :
+ 
+ #### :small_red_triangle: After making changes or modification on to your code locally, you need to add these files to the staging area.
 ```
- 2. Once files added, you need to commit the changes to with an appropriate commit message.
-```bash
-  git commit -m "<your-message>"
+  $ git add --all
 ```
- 3. After commiting the changes, you need to push the changes
-```bash
-   git push origin <branch-name>
+ #### :small_red_triangle: Once files added, you need to commit the changes to with an appropriate commit message.
 ```
- 4. Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
+  $ git commit -m "<your-message>"
+```
+ ####:small_red_triangle: After commiting the changes, you need to push the changes
+```
+   $ git push origin <your-created-branch-name>
+```
+#### :small_red_triangle: Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
 
- 5. Click it and you'll be taken to this screen
+#### :small_red_triangle: Click it and you'll be taken to this screen
 
- 6. Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
+#### :small_red_triangle: Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
 
- 7. That's it. You have opened a PR. Wait for it to get merged.
+####  That's it. You have opened a PR. Wait for it to get merged. :partying_face: :partying_face: :partying_face:
 
-## Thank You for your Amazing Contribution!!
+## :confetti_ball: :confetti_ball: :fireworks: :fireworks: Thanks for  your Amazing Contribution!! :collision: :collision: :collision: :cupid: :cupid:
+
+##### :mailbox_with_no_mail: :mailbox_with_no_mail: You can connect for any query (or can also ask by raising issue):grey_exclamation: :grey_exclamation: :grey_exclamation:
+
+<a href= "https://www.linkedin.com/in/arnab-chatterjee-9a0253187"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a>
+<a href="arnabchat2001@gmail.com"><img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></a>
+<a href='https://github.com/arnab2001'><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/> </a>
