@@ -1,4 +1,4 @@
-![hacktoberfest](./logo-hacktoberfest-full.f42e3b1.svg)
+![hacktoberfest](./images/logo-hacktoberfest-full.f42e3b1.svg)
 
 
 
