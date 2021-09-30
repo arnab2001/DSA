@@ -120,7 +120,7 @@ This year, the first 55,000 participants can earn a T-shirt.
 ```
   $ git commit -m "<your-message>"
 ```
- ####:small_red_triangle: After commiting the changes, you need to push the changes
+#### :small_red_triangle: After commiting the changes, you need to push the changes
 ```
    $ git push origin <your-created-branch-name>
 ```
