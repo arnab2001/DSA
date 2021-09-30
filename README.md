@@ -1,6 +1,20 @@
-# DSA
-Collection of DSA problems and solutions
+![hacktoberfest](logo-hacktoberfest-full.f42e3b1.svg)
 
+
+
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> welcome to the HACKTOBERFEST 2021 </h1>
+
+
+## Excited? :star_struck: :star_struck: :star_struck:  
+
+To add your contributions towards opensource community :smiley: :smiley::smiley: 
+
+Then lets start with this repository.
+##  <center>:sunglasses: :sunglasses: DSA :sunglasses: :sunglasses: </center>
+
+Head down :arrow_down: :arrow_down: :arrow_down: to see how to get started with the repo and follow the guidelines :dart: :dart: :dart:
+### Collection of DSA problems and solutions
+*****
  Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
  
  Example : Array/Sorting&Searching/bubblesort/bubblesort.c  (adding a readme file is recommended)
