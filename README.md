@@ -86,7 +86,7 @@ This year, the first 55,000 participants can earn a T-shirt.
 
 #### :three: Add a remote (upstream) to original project repository:
 
-![SS](https://lh3.googleusercontent.com/ns-DvDNv4mX82CyFfEdu0NtfmUcoNDDmrD4Bn8z2J0f1YFXcMbfMy_ljOnUooohGp2VynrCIMyJUwyM4aCM6ErImWXRQZG8oeEPT-UGm_GQfvRHNpD1KgxguyE9yavyJIjWjXY8I8gTMrQyWPCdRcdikf5kF4olTuewPa-abRRgMqeeIr8oQOdMU5SLazXlQuWduUL3fykMqp52MZroX2dBFEgGX046z614sdn61yrkxXTs3niVVA4w0kXcpUgKmT1zM_WBsrK63cFfUWNIVZEm874sKP3J2ySLuHrdBShOjFV1SeRMxfXH1wRSZdlpGnjWUib2ktmZUidS34KZD5AHmgrg7deviBrH5-VxYKFg8AVmnyBhO0UKOuqLutPGGXkkwltosQ8IueXSQzn30GMrLQDX894WGwTa619FITD81ezPVRttpbu0RTnyjeIVisWGSVGA4KNRpws9P4K8MoTKD1AS9Zb96FRmFVEh38-teI6E1XfpG5JQtdzueYaqMaMoZ2bYTgJgOhVrhhIwJLXcCXaWU0cvUUdo7jIKHgSLboSqPGRtcHz3R51UguSMay3aVo3m3jAV8G-imAvOhf6pfbarCDH-WWsIacLdZ3oX-Of5Enq4gyKE8aMWlgCKyAj5jIXE3wjp13f5-uOvUtBAuXKUQXshKqOcaS2-pT0nzPno_66WUVYcBM8CUX5Sv9yC_X0SP8TKTTkOtWFayNbc=w1333-h626-no?authuser=0)
+
 
 ``$ cd <cloned-folder>`` 
 ``$ git remote add upstream https://github.com/arnab2001/DSA.git ``
