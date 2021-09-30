@@ -10,7 +10,7 @@
 To add your contributions towards opensource community :smiley: :smiley::smiley: 
 
 Then lets start with this repository.
-##  <center>:sunglasses: :sunglasses: DSA :sunglasses: :sunglasses: </center>
+##    :sunglasses: :sunglasses: <center> DSA </center>:sunglasses: :sunglasses:
 
 Head down :arrow_down: :arrow_down: :arrow_down: to see how to get started with the repo and follow the guidelines :dart: :dart: :dart:
 ### Collection of DSA problems and solutions
