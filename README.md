@@ -1,7 +1,10 @@
 # DSA
 Collection of DSA problems and solutions
 
- Rules : Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
+ Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
+ 
+ Example : Array/Sorting&Searching/bubblesort/bubblesort.c  (adding a readme file is recommended)
+           Matrix/Matrix Multiplication/Matrix_multiplication.c
  
  
  HACKTOBERFEST 2021 IS HERE !!!
