@@ -75,7 +75,7 @@ This year, the first 55,000 participants can earn a T-shirt.
 
 ![PicsArt_10-04-08 04 45](https://user-images.githubusercontent.com/64744084/95018364-e7d2df00-067c-11eb-9989-5ed586adb11b.jpg)
 ******
-  #### :two: Go to Git Bash and Clone the forked repository ⌨️ ⌨️ : 
+ #### :two: Go to Git Bash and Clone the forked repository ⌨️ ⌨️ : 
   *****
        
   
