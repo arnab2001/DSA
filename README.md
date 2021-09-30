@@ -52,7 +52,7 @@ This year, the first 55,000 participants can earn a T-shirt.
 ```bash
    git clone https://github.com/your_username/make-pull-request
 ```
-![SS](https://photos.app.goo.gl/aa5nH7xy7RsDYRMw6)
+![SS](https://lh3.googleusercontent.com/Cz7zRP6MdZvh_gWc8Bn9sRq44Pj-fWdLcAvvEw4HjP908CARfVeHYijCk8r8Bt88jqWDd109lmR07hzYTFfxyERx-HWzUyiiDvz556UqWKTIXDRyRXI4apSmT08ZjRO8PnLRQ1zyf4o-0MBde7dtvjRA_bExqYQtVumcnHAJzlivzwsl6YdjLUvVg8yMho2dDXcIZJ5XZ_b9h5lDcInEavuk7AEgU9h1AA1v3mAhOCRuCSZQXpLwp87PuBaeX491_1a6LJZmCV3AWchP-kJzsBjKTKNFzPIb3h6QWJkcclMVWqLCoRbXMKQbM6ichVnC5scKDT-y6lU3QRgGVn5TOZw1Jp6KyiRgAVHXomUz5VOvZcboCSG20RE3er8XyoIB-moV-lqre3lNeafeFQWabtGD7srhFC8RxEJq2UNX9B0315bR5B4pJ8mDfwmfWrQdcvG2g8uvEkpJAxU2lybbOCSt450odYDwkXgbgWR4dlMuUrjjD0-Xu5-2WHe6NrIVtbCUxAKbmIrKt_MxXbJ4XYKELjA_AWwqMD5Paaz9ArTWFzf4qx6c-yaQ1azMIv4YJkEY7J8fQEluUWvFHvHY8jsZQAger5cuxJtWnV3-uzpvBlkvDhMTySijpeZZntpgeEV__XTiJr4F76SCUpo0sWekT_t52yplamF7Gv_j-b5Hq-yhTsawJYm1c6QGHsAhXOS9K9LnJye3IAt5T8OOUtg=w1333-h626-no?authuser=0)
 
  3. Open the folder in your favourite code editor and add your changes or modifications.
  
