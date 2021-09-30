@@ -52,7 +52,7 @@ This year, the first 55,000 participants can earn a T-shirt.
 ```bash
    git clone https://github.com/your_username/make-pull-request
 ```
-![PicsArt_10-04-07 46 13](https://photos.app.goo.gl/aa5nH7xy7RsDYRMw6)
+![SS](https://photos.app.goo.gl/aa5nH7xy7RsDYRMw6)
 
  3. Open the folder in your favourite code editor and add your changes or modifications.
  
