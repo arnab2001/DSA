@@ -29,9 +29,13 @@ https://hacktoberfest.digitalocean.com/register
 This year, the first 55,000 participants can earn a T-shirt.
 
 ⚠️What not to do!
+
 ❌ PRs that are automated (e.g. scripted opening PRs to remove whitespace/optimize images)
+
 ❌ PRs that are disruptive (e.g. taking someone else’s branch/commits and making a PR)
+
 ❌ PRs that are regarded by a project maintainer as a hindrance vs. helping
+
 ❌ Something that’s clearly an attempt to simply +1 your PR count for October
 
  
