@@ -133,6 +133,8 @@ This year, the first 55,000 participants can earn a T-shirt.
 ####  That's it. You have opened a PR. Wait for it to get merged. :partying_face: :partying_face: :partying_face:
 
 ## :confetti_ball: :confetti_ball: :fireworks: :fireworks: Thanks for  your Amazing Contribution!! :collision: :collision: :collision: :cupid: :cupid:
+<img alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
+
 
 ##### :mailbox_with_no_mail: :mailbox_with_no_mail: You can connect for any query (or can also ask by raising issue):grey_exclamation: :grey_exclamation: :grey_exclamation:
 
