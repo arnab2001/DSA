@@ -54,7 +54,7 @@ Then lets start with this repository.
 ✅ To get a shirt, you must make four approved pull requests (PRs) on opted-in projects between October 1-31 in any time zone.
 This year, the first 55,000 participants can earn a T-shirt.
 
-#### ⚠️What not to do :exclamation: :exclamation: :triumph: :triumph :
+#### ⚠️What not to do :exclamation: :exclamation: :triumph: :triumph:
 
 ❌ PRs that are automated (e.g. scripted opening PRs to remove whitespace/optimize images)
 
