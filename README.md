@@ -33,9 +33,9 @@ Then lets start with this repository.
 *****
 :label: Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
  
- Example :             
-              Array/Sorting&Searching/bubblesort/bubblesort.c 
-              Matrix/Matrix Multiplication/Matrix_multiplication.c 
+ Example :    ``Array/Sorting&Searching/bubblesort/bubblesort.c``
+ 
+              ``Matrix/Matrix Multiplication/Matrix_multiplication.c`` 
  
  
 
