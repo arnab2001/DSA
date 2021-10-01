@@ -141,3 +141,5 @@ This year, the first 55,000 participants can earn a T-shirt.
 <a href= "https://www.linkedin.com/in/arnab-chatterjee-9a0253187"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a>
 <a href="arnabchat2001@gmail.com"><img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></a>
 <a href='https://github.com/arnab2001'><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/> </a>
+![](https://visitor-badge.glitch.me/badge?page_id=arnab2001.DSA)
+
