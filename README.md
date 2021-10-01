@@ -33,9 +33,9 @@ Then lets start with this repository.
 *****
 :label: Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
  
- Example : `` Array/Sorting&Searching/bubblesort/bubblesort.c  (adding a readme file is recommended)
-           Matrix/Matrix Multiplication/Matrix_multiplication.c
- ``
+ Example :    ``Array/Sorting&Searching/bubblesort/bubblesort.c``
+              
+               Matrix/Matrix Multiplication/Matrix_multiplication.c (adding further documentation is reccomended)  
  
  
 
@@ -133,9 +133,13 @@ This year, the first 55,000 participants can earn a T-shirt.
 ####  That's it. You have opened a PR. Wait for it to get merged. :partying_face: :partying_face: :partying_face:
 
 ## :confetti_ball: :confetti_ball: :fireworks: :fireworks: Thanks for  your Amazing Contribution!! :collision: :collision: :collision: :cupid: :cupid:
+<img align="center" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
+
 
 ##### :mailbox_with_no_mail: :mailbox_with_no_mail: You can connect for any query (or can also ask by raising issue):grey_exclamation: :grey_exclamation: :grey_exclamation:
 
 <a href= "https://www.linkedin.com/in/arnab-chatterjee-9a0253187"><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a>
 <a href="arnabchat2001@gmail.com"><img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></a>
 <a href='https://github.com/arnab2001'><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/> </a>
+![](https://visitor-badge.glitch.me/badge?page_id=arnab2001.DSA)
+
