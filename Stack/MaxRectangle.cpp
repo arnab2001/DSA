@@ -5,6 +5,10 @@ using namespace std;
 
 class Solution{
   public:
+
+    // Finds the maximum area under
+    // the histogram represented
+    // by histogram
     int larghist(int arr[], int n)
     {
         stack<int> s;
@@ -29,7 +33,12 @@ class Solution{
     }
     
     int maxArea(int M[MAX][MAX], int n, int m) {
+
+        // Calculate area for first row and initialize it as
         int res = larghist(M[0], m);
+
+        // iterate over row to find maximum rectangular area
+        // considering each row as histogram
         for(int i=1; i<n; i++)
         {
             for(int j=0; j<m; j++)
@@ -39,6 +48,8 @@ class Solution{
                     M[i][j] += M[i-1][j];
                 }
             }
+            // Update result if area with current row (as last
+            // row) of rectangle) is more
             res = max(res, larghist(M[i], m));
         }
         return res;
@@ -66,3 +77,8 @@ int main() {
         cout << obj.maxArea(M, n, m) << endl;
     }
 }
+// Time Complexity: O(R x C). 
+// Only one traversal of the matrix is required, so the time complexity is O(R X C)
+// Space Complexity: O(C). 
+// Stack is required to store the columns, so so space complexity is O(C)
+// Troyunz
