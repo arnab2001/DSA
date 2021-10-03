@@ -1,0 +1,10 @@
+ matrix.push_back("+++++++++-");
+        matrix.push_back("-++++++++-");
+        matrix.push_back("-------++-");
+        matrix.push_back("-++++++++-");
+        matrix.push_back("-++++++++-");
+        matrix.push_back("-++++-----");
+        matrix.push_back("------+++-");
+        matrix.push_back("-++++++++-");
+        matrix.push_back("+---------");
+        matrix.push_back("++++++++++");
