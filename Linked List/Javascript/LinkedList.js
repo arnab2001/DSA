@@ -140,14 +140,19 @@ class LinkedList {
 }
 
 const ll = new LinkedList();
-console.log(ll.isEmpty()); // => true
+// console.log(ll.isEmpty()); // => true
 
 ll.append(1);
 ll.append(2);
 ll.append(3);
 
-console.log(ll.remove(0)); // => 1
-console.log(ll.lookup(0)); // => 2
+ll.remove(0); // => 1
+ll.lookup(0); // => 2
 
 ll.insert(1, 0); // inserts value "1" at the start (0th index) of the linked list
-console.log(JSON.stringify(ll, null, 2)); // prints the linked list
+// console.log(JSON.stringify(ll, null, 2)); // prints the linked list
+
+
+module.exports = {
+  LinkedList
+}
