@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="array/JAVA"/>
+	<classpathentry kind="src" path="array/Java Arrays"/>
+	<classpathentry kind="src" path="graphs/Java"/>
+	<classpathentry kind="src" path="Linear Search in Matrix"/>
+	<classpathentry kind="src" path="Linked List/Java"/>
+	<classpathentry kind="src" path="MathematicsDS"/>
+	<classpathentry kind="src" path="Matrix"/>
+	<classpathentry kind="src" path="Searching"/>
+	<classpathentry kind="src" path="Sorting"/>
+	<classpathentry kind="src" path="String"/>
+	<classpathentry kind="src" path="class_JAVA"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
