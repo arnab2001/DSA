@@ -1,67 +1,57 @@
 //Implementation of Bubble Sort
-#include<stdio.h>
+#include <stdio.h>
 
-void input(int A[],int n)
+void display(int A[], int n)
 
 {
 
-int i;
-
-printf("Enter %d number of elements: ",n); for(i=0;i<n;i++)
-scanf("%d",&A[i]);
-
+    int i;
+    for (i = 0; i < n; i++)
+        printf("%d ", A[i]);
 }
 
-void display(int A[],int n)
 
-{
-
-int i; for(i=0;i<n;i++)
-printf("%d ",A[i]);
-
+void bubbleSort(int A[],int n){
+    int isSort = 0;
+    int temp;
+    for(int i=0;i<n-1;i++){
+        printf("Working On Pass Number : %d\n",i+1);
+        isSort = 1;
+        for(int j=0;j<n-1-i;j++){
+            if(A[j]>A[j+1]){
+                temp = A[j];
+                A[j] = A[j+1];
+                A[j+1] = temp;
+                isSort = 0;
+            }
+        }
+        if(isSort){
+            return;
+        }
+    }
 }
 
-void swap(int a,int arr[])
+int main()
 
 {
 
-int temp; temp=arr[a]; arr[a]=arr[a+1]; arr[a+1]=temp;
-}
+    int A[20], n;
 
-void bubbleSort(int arr[], int n)
+    printf("\nEnter the size of the array:");
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++)
+    {
+        printf("Enter The eliment at index %d : ",i);
+        scanf("%d", &A[i]);
+    }
+    printf("\nArray before sorting:\n");
+    display(A, n);
+    bubbleSort(A, n);
 
-{
+    printf("\nArray after sorting:\n");
+    display(A, n);
 
-int i,j;
-
-for (i=0;i<n-1;i++)
-
-{
-
-for (j=0;j<n-i-1;j++)
-
-{
- 
-if(arr[j]>arr[j+1]) swap(j,arr);
-}
-
-}
-
-}
-
-void main()
-
-{
-
-int A[20],n;
-
-printf("\nEnter the size of the array:"); scanf("%d",&n);
-input(A,n);
-
-printf("\nArray before sorting:"); display(A,n);
-bubbleSort(A,n);
-
-printf("\nArray after sorting:"); display(A,n);
+    return 0;
 }
 
 /* Output:
