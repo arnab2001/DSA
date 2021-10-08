@@ -13,7 +13,7 @@ int main()
   {
     scanf("%d", &a[i]);
   }
-
+  // Choosing The Big and Small Eliment
   min = max = a[0];
   for (i = 1; i < n; i++)
   {
@@ -27,3 +27,4 @@ int main()
 
   return 0;
 }
+
