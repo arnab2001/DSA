@@ -13,7 +13,7 @@ void display(struct Node *ptr){
         ptr = ptr->next;
     }
 }
-
+// Insert Method
 struct Node *Insertion(struct Node *head,int data,int index){
     struct Node *p = (struct Node *)malloc(sizeof(struct Node));
     p->data = data;
