@@ -1,6 +1,5 @@
 //Implementation of Bubble Sort
 #include<stdio.h>
-
 void input(int A[],int n)
 
 {
@@ -12,8 +11,8 @@ scanf("%d",&A[i]);
 
 }
 
+//display function 
 void display(int A[],int n)
-
 {
 
 int i; for(i=0;i<n;i++)
