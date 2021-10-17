@@ -41,7 +41,7 @@ node **dequeue (node *front, node *temp, node *rear, node *newnode, node *arr[2]
         temp = front;
         front = front -> next;
         free (temp);
-        cout << "************The element at front is deleted*************" << endl;
+        cout << "**************The element at front is deleted***************" << endl;
     }
     arr[0] = rear;
     arr[1] = front;
