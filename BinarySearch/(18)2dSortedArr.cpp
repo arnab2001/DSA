@@ -13,7 +13,7 @@ int main() {
 	int n, m, x;
 	cin >> n >> m >> x;
 	int a[n][m];
-
+// for loop
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
 			cin >> a[i][j];
@@ -22,7 +22,7 @@ int main() {
 
 	int s = 0, e = m - 1;
 	int flag = 0;
-
+//conditions
 	while (s >= 0 && s < n && e >= 0 && e < n) {
 
 		int mid = a[s][e];
