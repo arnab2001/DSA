@@ -1,0 +1,17 @@
+class Solution {
+public int minCost(String c, int[] n) {
+int sum = 0, maxsum = 0;
+for(int i=0;i<c.length();i++){
+sum+=n[i];
+int max = n[i],count = 0;
+for(int j=i+1;j<c.length() && c.charAt(i)==c.charAt(j);j++){
+sum+=n[j];
+count++;
+if(n[j]>max) max=n[j];
+i = j;
+}
+maxsum+=max;
+}
+return sum-maxsum;
+}
+}
