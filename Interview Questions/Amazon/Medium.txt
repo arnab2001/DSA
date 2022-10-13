@@ -1,0 +1,201 @@
+Amazon Interview Questions
+
+
+1. The Stock Span Problem
+
+Question:
+
+The stock span problem is a financial problem where we have a series of n daily price quotes for a stock and we need to calculate the span of the stock’s price for all n days. The span Si of the stock’s price on a given day i is defined as the maximum number of consecutive days just before the given day, for which the price of the stock on the current day is less than its price on the given day.
+
+
+Example:
+
+Input: N = 7, price[] = [100 80 60 70 60 75 85]
+Output: 1 1 1 2 1 4 6
+
+Explanation: Traversing the given input span for 100 will be 1, 80 is smaller than 100 so the span is 1, 60 is smaller than 80 so the span is 1, 70 is greater than 60 so the span is 2 and so on. Hence the output will be 1 1 1 2 1 4 6.
+
+Input: N = 6, price[] = [10 4 5 90 120 80]
+Output:1 1 2 4 5 1
+
+Explanation: Traversing the given input span for 10 will be 1, 4 is smaller than 10 so the span will be 1, 5 is greater than 4 so the span will be 2 and so on. Hence, the output will be 1 1 2 4 5 1.
+
+
+
+
+JAVA Solution:
+
+// Java implementation for brute force method to calculate stock span values
+
+import java.util.Arrays;
+
+class GFG {
+	// method to calculate stock span values
+	static void calculateSpan(int price[], int n, int S[])
+	{
+		// Span value of first day is always 1
+		S[0] = 1;
+
+		// Calculate span value of remaining days by linearly checking
+		// previous days
+		for (int i = 1; i < n; i++) {
+			S[i] = 1; // Initialize span value
+
+			// Traverse left while the next element on left is smaller
+			// than price[i]
+			for (int j = i - 1; (j >= 0) && (price[i] >= price[j]); j--)
+				S[i]++;
+		}
+	}
+
+	// A utility function to print elements of array
+	static void printArray(int arr[])
+	{
+		System.out.print(Arrays.toString(arr));
+	}
+
+	// Driver program to test above functions
+	public static void main(String[] args)
+	{
+		int price[] = { 10, 4, 5, 90, 120, 80 };
+		int n = price.length;
+		int S[] = new int[n];
+
+		// Fill the span values in array S[]
+		calculateSpan(price, n, S);
+
+		// print the calculated span values
+		printArray(S);
+	}
+}
+// This code is contributed by Sumit Ghosh
+
+
+
+
+
+
+2. Gas Station Problem
+
+Question:
+
+Given two integer arrays A and B of size N. There are N gas stations along a circular route, where the amount of gas at station i is A[i].
+
+You have a car with an unlimited gas tank and it costs B[i] of gas to travel from station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.
+
+Return the minimum starting gas station's index if you can travel around the circuit once, otherwise return -1.
+
+You can only travel in one direction. i to i+1, i+2, ... n-1, 0, 1, 2.. Completing the circuit means starting at i and ending up at i again.
+
+
+
+
+
+Example:
+
+
+Input: A = [1, 2] B = [2, 1]
+Output: 1
+
+Explanation: If you start from index 0, you can fill in A[0] = 1 amount of gas. Now your tank has 1 unit of gas. But you need B[0] = 2 gas to travel to station 1. If you start from index 1, you can fill in A[1] = 2 amount of gas. Now your tank has 2 units of gas. You need B[1] = 1 gas to get to station 0. So, you travel to station 0 and still have 1 unit of gas left over. You fill in A[0] = 1 unit of additional gas, making your current gas = 2. It costs you B[0] = 2 to get to station 1, which you do and complete the circuit.
+
+
+
+JAVA Solution:
+
+
+public class Solution {
+    public int solve(String[] A) {
+       
+        HashMap<Character , Integer> map =  new HashMap<Character, Integer>();
+        for(int i = 0; i < A.length; i++){
+            for(int j = 0; j < A[i].length(); j++){
+                map.put(A[i].charAt(j) , 1);
+            }
+        }
+        if(map.size() < 26){
+            return 0;
+        }
+        else{
+            return 1;
+        }
+    }
+}
+
+
+3. Palindrome Partitioning 
+
+Question:
+
+Given a string A, partition A such that every substring of the partition is a palindrome.
+
+Return the minimum cuts needed for a palindrome partitioning of A.
+
+
+
+Example:
+
+Input 1:
+    A = "aba"
+
+Output 1:
+    0
+
+
+Explanation:
+
+Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 cut
+
+
+
+JAVA Solution:
+
+
+public class Solution {
+static public int minCut(String str) {
+    return solve(str,0,str.length()-1);
+}
+static int dp[][] = new int[501][501];
+Solution(){
+    for(int row[]: dp)
+        Arrays.fill(row,-1);
+}
+static int solve(String str,int i,int j){
+    if(i>=j)
+        return dp[i][j] = 0;
+    if(dp[i][j] != -1)
+        return dp[i][j];
+    if(isPalindrome(str,i,j))
+        return 0;
+    int min = Integer.MAX_VALUE;    
+    for(int k=i;k<=j-1;k++){
+        int left = 0,right = 0;
+        if(dp[i][k] != -1)
+            left = dp[i][k];
+        else{
+            left = solve(str,i,k);
+            dp[i][k] = left;
+        }
+        if(dp[k+1][j] != -1)
+            right = dp[k+1][j];
+        else{
+            right = solve(str,k+1,j);
+            dp[k+1][j] = right;
+        }
+        int temp = right + left + 1;
+        min = Math.min(min,temp);
+    }
+    return dp[i][j] = min;
+}
+static boolean isPalindrome(String str,int i,int j){
+    String x = str.substring(i,j+1);
+    int k=0,l=x.length()-1;
+    while(k<l){
+        if(x.charAt(k++) != x.charAt(l--))
+            return false;
+    }
+    return true;
+}
+}
+
+
