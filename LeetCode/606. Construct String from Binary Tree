@@ -1,0 +1,26 @@
+class Solution {
+public:
+    string str = "";
+    
+    void dfs(TreeNode* node, TreeNode* root) {
+        if (node == NULL)
+            return;
+        
+        if (node != root)
+            str += '(';
+        str += to_string(node->val);
+        dfs(node->left, root);
+        if (node->left==NULL && node->right!=NULL)
+            str += "()";
+        
+        dfs(node->right, root);
+        if (node != root)
+            str += ')';
+    }
+    
+    string tree2str(TreeNode* root) {
+        dfs(root, root);
+        
+        return str;
+    }
+};
